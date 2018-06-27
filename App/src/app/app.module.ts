@@ -3,15 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
+import { SeleccionComponent } from './netflix/seleccion/seleccion.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ // Componentes
+    AppComponent,
+    SeleccionComponent
   ],
-  imports: [
+  imports: [ //Modulos
     BrowserModule, FormsModule
   ],
-  providers: [],
+  providers: [], // servicios
   bootstrap: [AppComponent]
 })
 export class AppModule { }

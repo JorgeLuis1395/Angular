@@ -7,6 +7,38 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // Interpolacion
+
+
+  mostrarComponente = false;
+  contadorDesdePapa = 0;
+
+  arregloUsuarios = [
+    {
+      id:1,
+      imagen:'/assets/perfil.png',
+      texto:'tatis1909'
+    },
+    {
+      id:2,
+      imagen:'/assets/perfil.png',
+      texto:'pedro'
+    },
+    {
+      id:3,
+      imagen:'/assets/perfil.png',
+      texto:'Jeff'
+    },
+    {
+      id:4,
+      imagen:'/assets/perfil.png',
+      texto:'Edd'
+    },
+    {
+      id:5,
+      imagen:'/assets/perfil.png',
+      texto:'Nancy'
+    }
+  ];
   title = 'Web';
   usuario ={
     nombre:'Jorge',
